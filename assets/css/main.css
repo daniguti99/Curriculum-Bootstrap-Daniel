@@ -1461,3 +1461,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.tech-img {
+  width: 120px;        /* tamaño uniforme */
+  height: 120px;       /* cuadrado perfecto */
+  object-fit: contain; /* mantiene proporción sin deformar */
+  display: block;
+  margin: 0 auto;      /* centra la imagen */
+}
